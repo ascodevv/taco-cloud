@@ -1,5 +1,7 @@
-package com.ascodev.tacos;
+package com.ascodev.tacos.controller;
 
+import com.ascodev.tacos.entity.Ingredient;
+import com.ascodev.tacos.entity.TacoOrder;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -11,9 +13,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.ascodev.tacos.Ingredient;
-import com.ascodev.tacos.Ingredient.Type;
-import com.ascodev.tacos.Taco;
+import com.ascodev.tacos.entity.Taco;
+import com.ascodev.tacos.entity.Ingredient.Type;
 
 @Slf4j
 @Controller

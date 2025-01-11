@@ -27,3 +27,8 @@ div.ingredient-group {
 span.validationError {
     color: red;
 }
+
+button.order {
+    border-bottom-color: mediumpurple;
+
+}
